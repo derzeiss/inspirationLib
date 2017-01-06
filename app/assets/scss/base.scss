@@ -1,0 +1,21 @@
+@import '__config';
+@import 'mixins';
+@import 'reset';
+@import 'components/article';
+@import 'components/empty-state';
+@import 'components/search';
+@import 'components/tag';
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+%one-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

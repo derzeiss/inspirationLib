@@ -1,0 +1,15 @@
+{
+  "name": "inspirationLib",
+  "description": "Angular app to store inspiration",
+  "version": "0.0.1",
+  "private": "true",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derzeiss/inspirationLib.git"
+  },
+  "dependencies": {
+    "angular": "^1",
+    "angular-route": "^1"
+  }
+}

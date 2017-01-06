@@ -1,0 +1,29 @@
+// ---------- TAG CONTAINER ----------
+.tag-container {
+  width: 100%;
+  font-size: 0.9 * $font-size;
+  line-height: $line-height;
+}
+
+// ---------- TAG ----------
+.tag {
+  @extend %one-line;
+  display: inline-block;
+  padding: 0 12px;
+  border-radius: 100px;
+  color: $col-text-light;
+  background: $col-primary;
+  transition: opacity .1s;
+}
+
+.tag:hover {
+  opacity: .9;
+}
+
+.tag {
+  margin-right: 10px;
+}
+
+.tag:last-child {
+  margin-right: 0;
+}

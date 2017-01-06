@@ -1,0 +1,11 @@
+<script src="../../../RCD_tfs/RcdApp/RCD-0.5_trunk/app/core/on-document-click/on-document-click.directive.js"></script><a ng-href="{{$ctrl.article.src}}" class="article__img" style="background-image: url('{{$ctrl.article.img}}')"></a>
+<div class="article__text">
+    <a ng-href="{{$ctrl.article.src}}" class="article__title">{{$ctrl.article.title}}</a>
+    <div class="article__meta">
+        By <a href="#" class="article__author">{{$ctrl.article.author}}</a>
+        on <span class="article__date">{{$ctrl.article.date | date: 'dd.MM.yy'}}</span>
+    </div>
+    <div class="tag-container" js-scroll="$ctrl.scrollHorizontal($event)">
+        <a ng-href="#!/search/{{tag}}?in=tag" class="tag" ng-repeat="tag in $ctrl.article.tagList">{{tag}}</a>
+    </div>
+</div>

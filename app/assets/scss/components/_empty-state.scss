@@ -1,0 +1,16 @@
+.empty-state {
+  text-align: center;
+  color: $col-text-dark-meta;
+}
+
+.empty-state__icon {
+  font-weight: 500;
+  font-size: 7 * $font-size;
+  line-height: 1em;
+  padding-bottom: 30px;
+}
+
+.empty-state__message {
+  font-size: 3 * $font-size;
+  line-height: 1em;
+}

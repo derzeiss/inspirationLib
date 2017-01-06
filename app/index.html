@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>inspirationLib</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="assets/scss/base.css">
+
+    <!-- load angular -->
+    <script src="assets/lib/angular.js"></script>
+    <script src="assets/lib/angular-route.js"></script>
+    <script src="assets/lib/angular-resource.js"></script>
+
+    <!-- load app -->
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+
+
+    <!-- load core -->
+    <script src="core/core.module.js"></script>
+    <script src="core/article/article.module.js"></script>
+    <script src="core/article/article.service.js"></script>
+
+    <script src="core/js-scroll/js-scroll.module.js"></script>
+    <script src="core/js-scroll/js-scroll.directive.js"></script>
+
+    <!-- load components -->
+    <script src="article-list/article-list.module.js"></script>
+    <script src="article-list/article-list.component.js"></script>
+
+    <script src="article-item/article-item.module.js"></script>
+    <script src="article-item/article-item.component.js"></script>
+
+    <script src="search/search.module.js"></script>
+    <script src="search/search.component.js"></script>
+
+    <!-- testing line-height -->
+    <style>
+        body {
+            min-height: 100vh;
+            background: linear-gradient(45deg, transparent 0%, transparent 90%, #000 100%) repeat fixed left top / 10px 10px;
+        }
+
+        body:before {
+            /*content: '';*/
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+            background: linear-gradient(to bottom, transparent 0%, transparent 90%, #000 100%) repeat left 11px / 100% 20px;
+        }
+    </style>
+</head>
+<body ng-app="inspirationLib">
+
+<search></search>
+<main ng-view></main>
+
+</body>
+</html>

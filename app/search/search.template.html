@@ -1,0 +1,10 @@
+<span>Search for</span>
+<input class="search__for" type="text" title="search for" autofocus ng-change="$ctrl.onChangeSearchFor()"
+       ng-model="$ctrl.search.for" ng-model-options="{ debounce: 250 }">
+<span>in</span>
+<span class="search__in" ng-class="{search__in_active: $ctrl.search.in.title}"
+      ng-click="$ctrl.toggleSearchIn('title')">titles</span><span>,</span>
+<span class="search__in" ng-class="{search__in_active: $ctrl.search.in.tag}"
+      ng-click="$ctrl.toggleSearchIn('tag')">tags</span><span>,</span>
+<span class="search__in" ng-class="{search__in_active: $ctrl.search.in.author}"
+      ng-click="$ctrl.toggleSearchIn('author')">authors</span>

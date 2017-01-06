@@ -1,0 +1,51 @@
+article-list {
+  @include flex(row, flex-start, center, wrap);
+  width: 100%;
+  max-width: $article-container__max-width;
+  margin: auto;
+}
+
+article-item {
+  flex: 0 0 $article--width;
+  min-width: $article--width;
+  max-width: $article--width;
+  display: block;
+  width: 100%;
+  margin: $article--margin;
+  padding: $article--padding;
+  border: 1px solid $col-text-dark-meta;
+  background: $col-white;
+}
+
+.article__img {
+  @extend .img-container;
+  width: 100%;
+  height: 180px;
+  margin-bottom: 8px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.article__text {
+  padding: 0 12px;
+}
+
+.article__title {
+  display: block;
+  width: 100%;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 1.8 *  $font-size;
+  line-height: 1.3 * $line-height;
+}
+
+.article__meta {
+  font-size: .9 * $font-size;
+  line-height: $line-height;
+  color: $col-text-dark-secondary;
+}
+
+.article__author {
+  color: $col-accent;
+}

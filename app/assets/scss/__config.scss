@@ -1,0 +1,34 @@
+// responsive
+$breakpoint-sm: 481px;
+$breakpoint-md: 801px;
+$breakpoint-lg: 1281px;
+
+// color
+$col-white: #fff;
+$col-black: #000;
+
+$col-primary-dark: #455A64;
+$col-primary: #607D8B;
+$col-primary-light: #CFD8DC;
+
+$col-accent: #FF5252;
+
+$col-text-dark-primary: #212121;
+$col-text-dark-secondary: #757575;
+$col-text-dark-meta: #bdbdbd;
+
+$col-text-light: #fff;
+
+$font-size: 13px;
+$line-height: 20px;
+
+
+// elements
+
+$article--width: 320px;
+
+$article--margin: 10px;
+$article--padding: 15px;
+
+$max-articles-per-row: 4;
+$article-container__max-width: $max-articles-per-row * ($article--width + 2 * $article--margin);

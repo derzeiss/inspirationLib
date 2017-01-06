@@ -1,0 +1,45 @@
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font: 400 #{$font-size}/#{$line-height} 'Roboto', sans-serif;
+  color: $col-text-dark-primary;
+  background: $col-white;
+}
+
+article, aside, div, footer, header, main, section {
+  display: block;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+header, nav, button, .btn, i.material-icons, img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.material-icons {
+  line-height: inherit;
+}

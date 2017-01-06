@@ -1,0 +1,5 @@
+<div class="empty-state" ng-hide="filteredArticles.length">
+    <div class="empty-state__icon">:(</div>
+    <div class="empty-state__message">Sorry, nothing here...</div>
+</div>
+<article-item ng-repeat="article in filteredArticles = ($ctrl.articles | filter: $ctrl.filter | orderBy: 'name')" article="article"></article-item>

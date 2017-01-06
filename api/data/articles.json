@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Responsive Images: How they Almost Worked and What We Need",
+    "date": "2016-10-30",
+    "author": "A list apart",
+    "src": "http://alistapart.com/article/responsive-images-how-they-almost-worked-and-what-we-need",
+    "img": "http://alistapart.com/d/_made/d/ALA343_respimages_300_348_627_81.jpg",
+    "tagList": ["webdesign", "responsive", "image"]
+  },
+  {
+    "title": "Out of Sight, Out of Mind: Hamburger vs. bottom tap bar",
+    "date": "2016-11-03",
+    "author": "lukew",
+    "src": "http://www.lukew.com/ff/entry.asp?1945",
+    "img": "http://static.lukew.com/outofsight3.png",
+    "tagList": ["webdesign", "ux", "hamburger", "tab-bar", "bottom-navigation"]
+  },
+  {
+    "title": "Mobile Web vs. Native Apps or Why You Want Both",
+    "date": "2016-11-03",
+    "author": "lukew",
+    "src": "http://www.lukew.com/ff/entry.asp?1954",
+    "img": "http://static.lukew.com/webnative_native.png",
+    "tagList": ["research", "mobile-web", "native-app"]
+  },
+  {
+    "title": "Giving Your Product A Soul",
+    "date": "2016-11-03",
+    "author": "SmashingMagazine",
+    "src": "https://www.smashingmagazine.com/2016/10/giving-your-product-a-soul/",
+    "img": "https://www.smashingmagazine.com/wp-content/uploads/2016/10/brand-personality-500px-opt.png",
+    "tagList": ["webdesign", "soul", "emotions", "fiddle-factor"]
+  },
+  {
+    "title": "Designing Interface Animation",
+    "date": "2016-11-07",
+    "author": "A list apart",
+    "src": "http://alistapart.com/article/designing-interface-animation-interview-with-val-head",
+    "img": "http://alistapart.com/d/designing-interface-animation/09.04EasingCurves-2x.jpg",
+    "tagList": ["ux", "soul", "interface", "animation"]
+  },
+  {
+  "title": "8 Effective Web Design Principles You Should Know",
+  "date": "2016-12-08",
+  "author": "ConversionXL",
+  "src": "http://conversionxl.com/8-universal-web-design-principles-you-should-to-know/",
+  "img": "http://conversionxl.com/wp-content/uploads/2012/05/design.jpg",
+  "tagList": ["webdesign", "ux", "priciples"]
+},
+{
+  "title": "5 Typography Tweaks For Better Web Design & Response",
+  "date": "2016-12-08",
+  "author": "ConversionXL",
+  "src": "http://conversionxl.com/typography-tweaks/",
+  "img": "http://conversionxl.com/wp-content/uploads/2015/09/typography.jpg",
+  "tagList": ["typography", "webdesign"]
+},
+{
+  "title": "Secret Symphony: The Ultimate Guide to Readable Web Typography",
+  "date": "2016-12-08",
+  "author": "pearsonified",
+  "src": "https://pearsonified.com/2011/12/golden-ratio-typography.php",
+  "img": "http://pearsonified.com/wp-content/uploads/2011/12/line-height-vs-line-width.png",
+  "tagList": ["typography", "golden-ratio"]
+},
+{
+  "title": "The Principles of Beautiful Web Design, 2nd Edition",
+  "date": "2016-12-08",
+  "author": "sitepoint",
+  "src": "https://www.sitepoint.com/premium/books/the-principles-of-beautiful-web-design-2nd-edition/online/ch01.html",
+  "img": "http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2013/04/rwdlogo.jpg",
+  "tagList": ["webdesign", "priciples"]
+},
+{
+  "title": "How to write a killer web design brief",
+  "date": "2016-12-08",
+  "author": "ShortieDesigns",
+  "src": "http://shortiedesigns.com/2014/08/write-a-good-web-design-brief/",
+  "img": "http://shortiedesigns.com/wp-content/uploads/2014/08/how-to-design-brief.jpg",
+  "tagList": ["webdesign", "brief", "research"]
+},
+{
+  "title": "10 Principles Of Effective Web Design",
+  "date": "2016-12-08",
+  "author": "SmashingMagazine",
+  "src": "https://www.smashingmagazine.com/2008/01/10-principles-of-effective-web-design/",
+  "img": "https://www.smashingmagazine.com/images/10-usability-principles/scan.jpg",
+  "tagList": ["webdesign", "priciples", "research"]
+},
+{
+  "title": "Why “Simple” Websites Are Scientifically Better",
+  "date": "2016-12-08",
+  "author": "ConversionXL",
+  "src": "http://conversionxl.com/why-simple-websites-are-scientifically-better/",
+  "img": "http://conversionxl.com/wp-content/uploads/2014/03/Postmachina-%C2%BB-Home-e1395330841947-1.jpg",
+  "tagList": ["webdesign", "research", "minimalism", "case-study"]
+},
+{
+  "title": "Don’t Use Automatic Image Sliders or Carousels, Ignore the Fad",
+  "date": "2016-12-08",
+  "author": "ConversionXL",
+  "src": "http://conversionxl.com/dont-use-automatic-image-sliders-or-carousels-ignore-the-fad/",
+  "img": "http://conversionxl.com/wp-content/uploads/2012/09/slider.jpg",
+  "tagList": ["carousels", "ux", "research", "case-study"]
+},
+{
+  "title": "Metrics Driven Design",
+  "date": "2016-12-08",
+  "author": "bokardo",
+  "src": "http://bokardo.com/talks/metrics-driven-design/",
+  "img": "http://cdn2.business2community.com/wp-content/uploads/2015/02/Metrics.jpg.jpg",
+  "tagList": ["research", "metrics"]
+},
+{
+  "title": "The first rule of UX",
+  "date": "2016-12-08",
+  "author": "52WeeksOfUX",
+  "src": "http://52weeksofux.com/tagged/week_1",
+  "img": "http://68.media.tumblr.com/tumblr_kvuazyOTu01qz7ace.jpg",
+  "tagList": ["ux"]
+}
+  
+]
